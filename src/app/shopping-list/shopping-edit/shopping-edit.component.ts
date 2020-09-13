@@ -1,7 +1,8 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
-import { Ingredient } from '../../shared/ingredient.model';
 import { ShoppingListService } from './../shopping-list.service';
+import { Ingredient } from '../../shared/ingredient.model';
+
 
 @Component({
   selector: 'app-shopping-edit',
@@ -25,3 +26,4 @@ export class ShoppingEditComponent implements OnInit {
     this.shoppingListService.addIngredient(newIngredient);
   }
 }
+
