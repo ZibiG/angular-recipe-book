@@ -2,6 +2,12 @@
 
 Angular course project that allows to manage recipe book and shopping list of recipe ingredients
 
+## Firebase configuration
+
+In order to fetch and store your own recipes you need to provide url to your Firebase realtime database instance.
+Make a copy of file `src\app\secrets\secrets.json.example` in `src\app\secrets\` directory and rename it to `secrets.json`.
+Open this file in change `"firebaseUrl"` value to url to your own Firebase realtime database instance.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
