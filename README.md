@@ -4,9 +4,9 @@ Angular course project that allows to manage recipe book and shopping list of re
 
 ## Firebase configuration
 
-In order to fetch and store your own recipes you need to provide url to your Firebase realtime database instance.
+In order to fetch and store your own recipes you need to provide your Firebase API key and url to your Firebase realtime database instance.
 Make a copy of file `src\app\secrets\secrets.json.example` in `src\app\secrets\` directory and rename it to `secrets.json`.
-Open this file in change `"firebaseUrl"` value to url to your own Firebase realtime database instance.
+Open this file and change values of `"firebaseApiKey"` and `"firebaseUrl"` properties to your Firebase API key and url of your own Firebase realtime database instance.
 
 ## Development server
 
